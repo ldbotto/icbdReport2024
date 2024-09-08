@@ -1,0 +1,29 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "ICBDSR 2024 Report"
+  page-navigation: true
+  page-footer: "ICBDSR 2024, International Center on Birth Defects" 
+  navbar:
+    logo: "images/logo_icbdsr.jpg"
+    left:
+      - href: index.qmd
+        text: home
+      - href: report_conditions/index_conditions.html
+        text: by condition
+      - href: report_progs/index_progs.html
+        text: by program
+      - href: about.qmd
+        text: ICBDSR Info
+format:
+  html:
+    theme:
+      light: minty
+      dark: darkly
+    css: styles.css
+    toc: true
+
+editor: visual
+
